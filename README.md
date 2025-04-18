@@ -1,6 +1,6 @@
-Group Nunu
-Members:
-CORNELIO, Aaron
-ESTRERA, Cherie
-LUMACAD, Sandy
-VASQUEZ, Yen
+Group Nunu <br>
+Members: <br>
+- CORNELIO, Aaron
+- ESTRERA, Cherie
+- LUMACAD, Sandy
+- VASQUEZ, Yen
