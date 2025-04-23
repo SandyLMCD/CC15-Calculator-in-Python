@@ -1,6 +1,10 @@
-Group Nunu <br>
-Members: <br>
-- CORNELIO, Aaron
-- ESTRERA, Cherie
-- LUMACAD, Sandy
-- VASQUEZ, Yen
+## Group Nunu Members:
+
+- Aaron Cornelio
+- Cherie Estrera
+- Sandy Lumacad
+- Yen Vasquez
+
+## Screenshot of UI
+
+![alt text](image.png)
