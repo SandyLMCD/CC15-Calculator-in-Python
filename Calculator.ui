@@ -13,7 +13,17 @@
   <property name="windowTitle">
    <string>Calculator</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">QMainWindow {
+	background-color: #1c1c1c;
+}</string>
+  </property>
   <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true">QWidget {
+	background-color: #1c1c1c;
+}</string>
+   </property>
    <widget class="QLabel" name="outputLabel">
     <property name="geometry">
      <rect>
@@ -27,6 +37,11 @@
      <font>
       <pointsize>36</pointsize>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+	color: #fff;
+}</string>
     </property>
     <property name="frameShape">
      <enum>QFrame::Box</enum>
@@ -61,6 +76,14 @@
       <pointsize>26</pointsize>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	background-color: #d4d4d2;
+	border: 3px solid #1c1c1c;
+	border-radius: 15px;
+	color: #1c1c1c;
+}</string>
+    </property>
     <property name="text">
      <string>C</string>
     </property>
@@ -78,6 +101,14 @@
      <font>
       <pointsize>26</pointsize>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	background-color: #FF9500;
+border: 3px solid #1c1c1c;
+	border-radius: 15px;
+	color: #1c1c1c;
+}</string>
     </property>
     <property name="text">
      <string>/</string>
@@ -97,6 +128,14 @@
       <pointsize>26</pointsize>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	background-color: #d4d4d2;
+border: 3px solid #1c1c1c;
+	border-radius: 15px;
+	color: #1c1c1c;
+}</string>
+    </property>
     <property name="text">
      <string>%</string>
     </property>
@@ -114,6 +153,14 @@
      <font>
       <pointsize>26</pointsize>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	background-color: #d4d4d2;
+	border: 3px solid #1c1c1c;
+	border-radius: 15px;
+	color: #1c1c1c;
+}</string>
     </property>
     <property name="text">
      <string>AC</string>
@@ -133,6 +180,14 @@
       <pointsize>26</pointsize>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	background-color: #FF9500;
+border: 3px solid #1c1c1c;
+	border-radius: 15px;
+	color: #1c1c1c;
+}</string>
+    </property>
     <property name="text">
      <string>x</string>
     </property>
@@ -150,6 +205,14 @@
      <font>
       <pointsize>26</pointsize>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	background-color: #505050;
+border: 3px solid #1c1c1c;
+	border-radius: 15px;
+	color: #fff;
+}</string>
     </property>
     <property name="text">
      <string>8</string>
@@ -169,6 +232,14 @@
       <pointsize>26</pointsize>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	background-color: #505050;
+border: 3px solid #1c1c1c;
+	border-radius: 15px;
+	color: #fff;
+}</string>
+    </property>
     <property name="text">
      <string>7</string>
     </property>
@@ -186,6 +257,14 @@
      <font>
       <pointsize>26</pointsize>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	background-color: #505050;
+border: 3px solid #1c1c1c;
+	border-radius: 15px;
+	color: #fff;
+}</string>
     </property>
     <property name="text">
      <string>9</string>
@@ -205,6 +284,14 @@
       <pointsize>26</pointsize>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	background-color: #FF9500;
+	border: 3px solid #1c1c1c;
+	border-radius: 15px;
+	color: #1c1c1c;
+}</string>
+    </property>
     <property name="text">
      <string>-</string>
     </property>
@@ -222,6 +309,14 @@
      <font>
       <pointsize>26</pointsize>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	background-color: #505050;
+border: 3px solid #1c1c1c;
+	border-radius: 15px;
+	color: #fff;
+}</string>
     </property>
     <property name="text">
      <string>5</string>
@@ -241,6 +336,14 @@
       <pointsize>26</pointsize>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	background-color: #505050;
+border: 3px solid #1c1c1c;
+	border-radius: 15px;
+	color: #fff;
+}</string>
+    </property>
     <property name="text">
      <string>4</string>
     </property>
@@ -258,6 +361,14 @@
      <font>
       <pointsize>26</pointsize>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	background-color: #505050;
+border: 3px solid #1c1c1c;
+	border-radius: 15px;
+	color: #fff;
+}</string>
     </property>
     <property name="text">
      <string>6</string>
@@ -277,6 +388,14 @@
       <pointsize>26</pointsize>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	background-color: #FF9500;
+	border: 3px solid #1c1c1c;
+	border-radius: 15px;
+	color: #1c1c1c;
+}</string>
+    </property>
     <property name="text">
      <string>+</string>
     </property>
@@ -294,6 +413,14 @@
      <font>
       <pointsize>26</pointsize>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	background-color: #505050;
+	border: 3px solid #1c1c1c;
+	border-radius: 15px;
+	color: #fff;
+}</string>
     </property>
     <property name="text">
      <string>2</string>
@@ -313,6 +440,14 @@
       <pointsize>26</pointsize>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	background-color: #505050;
+	border: 3px solid #1c1c1c;
+	border-radius: 15px;
+	color: #fff;
+}</string>
+    </property>
     <property name="text">
      <string>1</string>
     </property>
@@ -330,6 +465,14 @@
      <font>
       <pointsize>26</pointsize>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	background-color: #505050;
+	border: 3px solid #1c1c1c;
+	border-radius: 15px;
+	color: #fff;
+}</string>
     </property>
     <property name="text">
      <string>3</string>
@@ -349,6 +492,14 @@
       <pointsize>26</pointsize>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	background-color: #505050;
+	border: 3px solid #1c1c1c;
+	border-radius: 15px;
+	color: #fff;
+}</string>
+    </property>
     <property name="text">
      <string>.</string>
     </property>
@@ -367,6 +518,14 @@
       <pointsize>26</pointsize>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	background-color: #505050;
+	border: 3px solid #1c1c1c;
+	border-radius: 15px;
+	color: #fff;
+}</string>
+    </property>
     <property name="text">
      <string>0</string>
     </property>
@@ -374,9 +533,9 @@
    <widget class="QLabel" name="developedLabel">
     <property name="geometry">
      <rect>
-      <x>90</x>
+      <x>50</x>
       <y>510</y>
-      <width>161</width>
+      <width>251</width>
       <height>16</height>
      </rect>
     </property>
@@ -384,6 +543,11 @@
      <font>
       <pointsize>12</pointsize>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+	color: #fff;
+}</string>
     </property>
     <property name="text">
      <string>Developed by Group Nunu</string>
@@ -406,6 +570,14 @@
       <pointsize>26</pointsize>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	background-color: #505050;
+	border: 3px solid #1c1c1c;
+	border-radius: 15px;
+	color: #fff;
+}</string>
+    </property>
     <property name="text">
      <string>+/-</string>
     </property>
@@ -423,6 +595,14 @@
      <font>
       <pointsize>26</pointsize>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	background-color: #FF9500;
+	border: 3px solid #1c1c1c;
+	border-radius: 15px;
+	color: #1c1c1c;
+}</string>
     </property>
     <property name="text">
      <string>=</string>
